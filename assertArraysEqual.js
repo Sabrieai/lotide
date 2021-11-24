@@ -2,10 +2,6 @@ const assertArraysEqual = function(array1, array2) {
   console.log(eqArrays(array1, array2) === true ? "😃" : "🤢");
 };
 
-// Compare each element of the two arrays in order
-// Determine if true or false
-// If all true, return true
-// If at least one is false, return false
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     return false;
