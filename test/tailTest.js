@@ -16,9 +16,6 @@ describe("#tail", () => {
     assert.deepEqual(tail([' I dont know if', 'it', 'works!']), ['it', 'works!']);
   });
 
-  it("returns ['it', 'works!'] for [' I dont know if', 'it', 'works!'] ", () => {
-    assert.deepEqual(tail([' I dont know if', 'it', 'works!']), ['it', 'works!']);
-  });
 });
 
 
