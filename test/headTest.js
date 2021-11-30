@@ -9,7 +9,7 @@ describe("#head", () => {
     assert.strictEqual(head([1, 2, 3]), 1);
   });
   it("returns '5' for ['4']", () => {
-    assert.strictEqual(head(['4']), '5');
+    assert.notEqual(head(['4']), '5');
   });
   it("returns '5' for ['5', '6', '7']", () => {
     assert.strictEqual(head(['5']), '5');
