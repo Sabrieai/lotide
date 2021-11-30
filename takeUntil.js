@@ -1,4 +1,3 @@
-// decided not to include the test cases/ tester functions because it looked too bulky
 const takeUntil = function(array, callback) {
   const newArray = [];
   for (let element of array) {
@@ -11,4 +10,4 @@ const takeUntil = function(array, callback) {
   return newArray;
 };
 
-
+module.exports = takeUntil;
